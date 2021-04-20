@@ -1,0 +1,20 @@
+/* GLOBAL RESET*/
+* {box-sizing: border-box;}
+
+/*COLORS*/
+$yellow: #FFB600;
+$red: #FF4713;
+$black: #0F0F0F;
+
+/*FONTS*/
+$headers: century-gothic, sans-serif;
+$body: ballinger, sans-serif;
+
+/*IMPORTS*/
+@import "partials/toc";
+@import "partials/type";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/grid";
+@import "partials/images";
+@import "partials/cursor";

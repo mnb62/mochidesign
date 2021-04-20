@@ -1,0 +1,31 @@
+/* BODY RESET*/
+
+body {
+    margin: 0px;
+    background-color: $black;
+}
+
+/* HOME PAGE*/
+
+
+main.home {
+    margin: 110px 100px;
+    
+    .links {
+    position: relative;
+    float: right;
+    text-align: right;
+}
+}
+
+/*ALL PAGE MARGINS*/
+
+
+.projects {
+    margin: 70px 100px;
+}
+
+.about {
+    margin: 70px 100px;
+    position: absolute;
+}

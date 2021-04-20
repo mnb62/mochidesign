@@ -1,0 +1,72 @@
+/*COLORS*/
+
+h1, h2, h3, h4{color:$yellow;}
+body{color:$yellow;}
+
+/*FONTS*/
+
+h1, h2, h3, h4{font-family: $headers;}
+body{
+    font-family: $body;
+    font-weight: 100;
+}
+
+h1, h2 {font-weight: 700;}
+h3 {font-weight: 400;}
+
+/*HOME ID HEADER*/
+
+h1.id {
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: .9em;
+    margin-top: .1em;
+    margin-bottom: 0em;
+}
+
+h2.id {
+    margin-left: .5em;
+}
+
+h3.id {
+    font-size: 32px;
+    margin-top: .3em;
+}
+
+/*LINKS*/
+
+.links a {
+    font-family: $headers;
+    color: $yellow;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: $yellow;
+    text-decoration: none;
+}
+
+/* PROJECT LIST */
+
+.projects ul {
+    font-family: $headers;
+    color: $yellow;
+    font-size: 22px;
+    line-height: 2em;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+        color: $yellow;
+    }
+}
+
+/*ABOUT BODY*/
+
+p.aboutme {
+    max-width: 50%;
+}
