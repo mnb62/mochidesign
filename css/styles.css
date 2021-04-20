@@ -1,0 +1,163 @@
+/* GLOBAL RESET*/
+* {
+  box-sizing: border-box;
+}
+
+/*COLORS*/
+/*FONTS*/
+/*IMPORTS*/
+/* ---------------------- 
+
+
+CSS TABLE OF CONTENTS
+
+
+#GLOBAL RESETS
+#BASE TYPOGRAPHY
+#BUTTONS
+#MEDIA
+    #RESPONSIVE IMAGES
+#LAYOUT
+    #CONTAINER
+    #MEDIA QUERES
+    #CUSTOME SEMANTIC GRID SYSTEM
+#STRUCTURE
+    #SITE HEADER
+    #SITE NAV
+    #MAIN
+        #SECTIONS
+    #SITE FOOTER
+
+------------------------- */
+/*COLORS*/
+h1, h2, h3, h4 {
+  color: #FFB600;
+}
+
+body {
+  color: #FFB600;
+}
+
+/*FONTS*/
+h1, h2, h3, h4 {
+  font-family: century-gothic, sans-serif;
+}
+
+body {
+  font-family: ballinger, sans-serif;
+  font-weight: 100;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+/*HOME ID HEADER*/
+h1.id {
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 0.9em;
+  margin-top: 0.1em;
+  margin-bottom: 0em;
+}
+
+h2.id {
+  margin-left: 0.5em;
+}
+
+h3.id {
+  font-size: 32px;
+  margin-top: 0.3em;
+}
+
+/*LINKS*/
+.links a {
+  font-family: century-gothic, sans-serif;
+  color: #FFB600;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: #FFB600;
+  text-decoration: none;
+}
+
+/* PROJECT LIST */
+.projects ul {
+  font-family: century-gothic, sans-serif;
+  color: #FFB600;
+  font-size: 22px;
+  line-height: 2em;
+  list-style: none;
+}
+.projects ul a {
+  text-decoration: none;
+}
+.projects ul a:visited {
+  text-decoration: none;
+  color: #FFB600;
+}
+
+/*ABOUT BODY*/
+p.aboutme {
+  max-width: 50%;
+}
+
+/* BODY RESET*/
+body {
+  margin: 0px;
+  background-color: #0F0F0F;
+}
+
+/* HOME PAGE*/
+main.home {
+  margin: 110px 100px;
+}
+main.home .links {
+  position: relative;
+  float: right;
+  text-align: right;
+}
+
+/*ALL PAGE MARGINS*/
+.projects {
+  margin: 70px 100px;
+}
+
+.about {
+  margin: 70px 100px;
+  position: absolute;
+}
+
+header a {
+  font-family: century-gothic, sans-serif;
+  color: #FFB600;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.site-id {
+  font-family: century-gothic, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9em;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 100px;
+}
+
+.one-half {
+  margin: 10px;
+}
+
+/*SELF PORTRAIT*/
