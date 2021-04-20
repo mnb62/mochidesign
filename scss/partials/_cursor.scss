@@ -1,6 +1,6 @@
 .custom-cursor {
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: $yellow;
     position: fixed;
@@ -8,5 +8,4 @@
     left: 0;
     transition: transform 0.3s ease-out;
     pointer-events: none;
-    cursor: none;
 }
