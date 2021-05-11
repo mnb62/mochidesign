@@ -7,5 +7,10 @@
     top: 0;
     left: 0;
     transition: transform 0.3s ease-out;
+    transform: translate(-50%, -50%);
     pointer-events: none;
+
+    &[data-hover="true"]{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
 }

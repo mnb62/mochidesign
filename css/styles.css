@@ -108,6 +108,21 @@ p.aboutme {
   max-width: 50%;
 }
 
+/*PROJECT TYPE*/
+h1.title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+h3.info {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  max-width: 600;
+}
+
 /* BODY RESET*/
 body {
   margin: 0px;
@@ -125,17 +140,13 @@ main.home .links {
 }
 
 /*ALL PAGE MARGINS*/
-.projects {
+.projects, .project, .gallery {
   margin: 70px 100px;
 }
 
 .about {
   margin: 70px 100px;
   position: absolute;
-}
-
-.project {
-  margin: 70px 70px;
 }
 
 header a {
@@ -154,17 +165,22 @@ header a {
   text-align: right;
 }
 
-.row {
+header .row {
   display: flex;
   flex-wrap: wrap;
   margin: 20px 100px;
 }
 
-.one-half {
+header .one-half {
   margin: 10px;
 }
 
 /*SELF PORTRAIT*/
+/*GALLERY*/
+.gallery img {
+  border-radius: 20px;
+}
+
 .custom-cursor {
   height: 15px;
   width: 15px;
@@ -174,5 +190,9 @@ header a {
   top: 0;
   left: 0;
   transition: transform 0.3s ease-out;
+  transform: translate(-50%, -50%);
   pointer-events: none;
+}
+.custom-cursor[data-hover=true] {
+  transform: translate(-50%, -50%) scale(1.5);
 }
