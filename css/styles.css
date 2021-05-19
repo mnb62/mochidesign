@@ -179,6 +179,7 @@ header .one-half {
 /*GALLERY*/
 .gallery img {
   border-radius: 20px;
+  max-width: 50%;
 }
 
 .custom-cursor {
